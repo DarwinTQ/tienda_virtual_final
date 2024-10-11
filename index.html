@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eco Market</title>
+
+    <!-- FUENTE GOOGLE FONTS : Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ICONS: Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <!-- ICONS: Line Awesome -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Animaciones AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+
+    <!-- Mis Estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+    <div class="hm-wrapper">
+
+        <!-- =================================
+           HEADER MENU
+        ================================== -->
+        <div class="hm-header">
+
+            <div class="container">
+                <div class="header-menu">
+
+                    <div class="hm-logo">
+                        <a href="#">
+                            <img src="img/Logo_eco_market.png" alt="">
+                        </a>
+                    </div>
+
+                    <nav class="hm-menu">
+                        <ul>
+                            <li class="search-icon">
+                                <input type="search" placeholder="Buscar..." aria-label="Buscar">
+                                <label class="icon">
+                                    <span class="fas fa-search"></span>
+                                </label>
+                            </li>                            
+                            <li><a href="Productos.html">Productos</a></li>
+                            <li><a href="Campañas.html">Campañas</a></li>
+                            <li><a href="Nosotros.html">Nosotros</a></li>
+                            <li><a href="Contacto.html">Contacto</a></li>
+                            <li class="car"><a href="carrito.html" >
+                                <svg class="bi bi-cart3" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                  <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                                </svg></a>
+                              </li>
+                        </ul>
+
+
+                        <div class="icon-menu">
+                            <button type="button"><i class="fas fa-bars"></i></button>
+                        </div>
+
+                    </nav>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- =================================
+           HEADER MENU Movil
+        ================================== -->
+        <div class="header-menu-movil"> 
+            <button class="cerrar-menu"><i class="fas fa-times"></i></button>
+            <ul>
+                <li><a href="#" id="productos">Productos</a></li>
+                <li><a href="#" id="campanas">Campañas</a></li>
+                <li><a href="#" id="nosotros">Nosotros</a></li>
+                <li><a href="#" id="contacto">Contacto</a></li>
+            </ul>
+        </div>
+        
+        <script>
+            // Redireccionar al hacer clic en cada enlace
+            document.getElementById('productos').addEventListener('click', function() {
+                window.location.href = 'productos.html';
+            });
+            
+            document.getElementById('campanas').addEventListener('click', function() {
+                window.location.href = 'campanas.html';
+            });
+        
+            document.getElementById('nosotros').addEventListener('click', function() {
+                window.location.href = 'nosotros.html';
+            });
+        
+            document.getElementById('contacto').addEventListener('click', function() {
+                window.location.href = 'contacto.html';
+            });
+        </script>
+        
+
+
+
+        <!-- =================================
+           BANNER
+        ================================== -->
+<div class="slider">
+        <ul>
+         <li><img src="img\portada1.jpg" alt="..."></li>
+         <li><img src="img\portada3.avif" alt="..."></li>
+        <li><img src="img\portada 12.jpg" alt="..."></li>
+        
+        </ul>
+</div>
+
+
+        <!-- =================================
+           HOME CATEGROIAS
+        ================================== -->
+        <div class="hm-page-block">
+            <div class="container">
+                <div class="header-title">
+                    <h1  data-aos="fade-up" data-aos-duration="3000">Categorías</h1>
+                </div>
+
+                <div class="hm-grid-category">
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="1000">
+                        <a href="#">
+                            <img src="img/hogar.avif" alt="">
+                            <div class="c-info">
+                                <h3>Hogar</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="1500">
+                        <a href="#">
+                            <img src="img/cocina.jpg" alt="">
+                            <div class="c-info">
+                                <h3>Cocina</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="2000">
+                        <a href="#">
+                            <img src="img/alimentacion.jpg" alt="">
+                            <div class="c-info">
+                                <h3>Alimentación</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="2000">
+                        <a href="#">
+                            <img src="img/arte.jpg" alt="">
+                            <div class="c-info">
+                                <h3>Arte-Sano</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+         <!-- =================================
+           HOME PRODUCTOS DESTACADOS
+        ================================== -->
+        <div class="hm-page-block bg-fondo">
+
+            <div class="container">
+
+                <div class="header-title" data-aos="fade-up">
+                    <h1>Productos populares</h1>
+                </div>
+
+                <!-- TABS -->
+                <ul class="hm-tabs" data-aos="fade-up">
+                    <li class="hm-tab-link">
+                        Mascotas
+                    </li>
+
+                    <li class="hm-tab-link ">
+                        Bebidas
+                    </li>
+
+                    <li class="hm-tab-link ">
+                        Belleza
+                    </li>
+
+                    <li class="hm-tab-link ative">
+                        En oferta
+                    </li>
+
+                </ul>
+
+                <!-- CONTENIDO DE LOS TABS -->
+                <!-- Zapatillas -->
+                <div class="tabs-content" data-aos="fade-up">
+
+                    <div class="grid-product">
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/vegancan.webp" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Vegan Can 1KG</h3></a>
+                                <div class="precio">
+                                    <span>S/ 88.10</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/barker.webp" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>BARKER FOOD CARNE</h3></a>
+                                <div class="precio">
+                                    <span>S/ 100.09</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/heladobark.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>BARKER YOGY HELADO DE YOGURT PARA MASCOTAS 100GR.</h3></a>
+                                <div class="precio">
+                                    <span>S/ 69.90</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/salmon.png" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>BARKER FOOD SALMON</h3></a>
+                                <div class="precio">
+                                    <span>S/ 1100.04</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Bebidas -->
+                <div class="tabs-content" data-aos="fade-up">
+
+                    <div class="grid-product">
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/bebida1.png" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>AQUA LIGHT AGUA NATURAL SIN GAS 600ML</h3></a>
+                                <div class="precio">
+                                    <span>S/ 2.99</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/bebida2.png" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>ALYSSOL NECTAR DE AGUAYMANTO 300ML</h3></a>
+                                <div class="precio">
+                                    <span>S/ 4.99</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/bebida3.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>BAILEYS ORIGINAL LICOR DE CREMA 750ML</h3></a>
+                                <div class="precio">
+                                    <span>S/ 69.99</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/bebida4.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>BEBIDA DE ALOE VERA DRINK HOUSSY 1.5LT</h3></a>
+                                <div class="precio">
+                                    <span>S/ 15.99</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Belleza -->
+                <div class="tabs-content" data-aos="fade-up">
+
+                    <div class="grid-product">
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/belleza.png" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>ACEITE DE JOJOBA GREEN HOUSE 60ML</h3></a>
+                                <div class="precio">
+                                    <span>S/ 21.99</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/belleza2.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>TERRA AMAZONAS ACEITE DE AGUAJE 30ML</h3></a>
+                                <div class="precio">
+                                    <span>S/ 36.99</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/belleza3.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>AGUA DE ROSAS MISHA RASTRERA 50ML</h3></a>
+                                <div class="precio">
+                                    <span>S/ 28.234</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/belleza4.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>TERRA AMAZONAS ACEITE ESENCIAL DE LAVANDA 100%NATURAL 10ML</h3></a>
+                                <div class="precio">
+                                    <span>S/ 100.01</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- En oferta -->
+                <div class="tabs-content" data-aos="fade-up">
+
+                    <div class="grid-product">
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/oferta1.webp" alt="">
+                                </a>
+                                <span class="stin stin-oferta">Oferta</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>ACEITE DE CARTAMO OLEICO 170ML</h3></a>
+                                <div class="precio">
+                                    <span>S/ 17.99</span>
+                                    <span class="thash">S/ 29.99</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/oferta2.png" alt="">
+                                </a>
+                                <span class="stin stin-oferta">Oferta</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>CREMA Y NATA PURÉ DE CAMOTE 500ML</h3></a>
+                                <div class="precio">
+                                    <span>S/ 16.88</span>
+                                    <span class="thash">S/ 25.99</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/oferta3.png" alt="">
+                                </a>
+                                <span class="stin stin-oferta">Oferta</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>DELGA PLUS AMAZING LIFE 75GR</h3></a>
+                                <div class="precio">
+                                    <span>S/ 26.99</span>
+
+                                    <span class="thash">S/ 39.90</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="">
+                                    <img src="img/oferta4.png" alt="">
+                                </a>
+                                <span class="stin stin-oferta">Oferta</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>GALLETONES CACAO EXTRA Y AVENA 2UND FRUTY 100GR</h3></a>
+                                <div class="precio">
+                                    <span>S/ 24.99</span>
+                                    <span class="thash">S/ 30.88</span>
+                                </div>
+                                <a href="#" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+         <!-- =================================
+           FOOTER
+        ================================== -->
+        <footer>
+            
+            <div class="container">
+
+                <div class="foo-row">
+                    <div class="foo-col">
+                        <h2>Suscríbete Aquí</h2>
+                        <form action="" method="GET">
+
+                            <div class="f-input">
+                                <input type="text" placeholder="Ingrese su correo">
+                                <button type="submit" class="hm-btn-round btn-primary"><i class="far fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="foo-col">
+                        <ul>
+                           <li><a href="Productos.html">Productos</a></li>
+                           <li><a href="Campañas.html">Campañas</a></li>
+                           <li><a href="Nosotros.html">Nosotros</a></li>
+                           <li><a href="Contacto.html">Contacto</a></li>
+                           
+                        </ul>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+        
+                <div class="container">
+                    <p>Derechos reservados &copy; 2024 Eco Market</p>
+                    
+                    
+                </div>
+            
+
+        </footer>
+
+       
+        
+
+    </div>
+    
+    <!-- Animaciones : AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Mi Script -->
+    <script src="js/app.js"></script>
+
+    <script>
+    
+        AOS.init({
+            duration: 1200,
+        })
+
+
+    </script>
+
+</body>
+</html>
