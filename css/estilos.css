@@ -686,7 +686,7 @@ input[type="search"] {
     padding: 10px 60px 10px 40px; /* Añadir espacio interno */
     border: 2px solid #1eb105; /* Color de borde color-principal: #FF5A5F*/
     border-radius: 25px; /* Bordes redondeados */
-    width: 250px; /* Ancho del input */
+    width: 300px; /* Ancho del input */
     font-size: 16px; /* Tamaño de fuente */
     transition: border-color 0.3s; /* Transición suave */
 }
