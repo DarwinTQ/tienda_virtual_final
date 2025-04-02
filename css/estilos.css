@@ -139,6 +139,7 @@ img{
     height: 100%;
     justify-content: space-between;
     align-items: center;
+    padding-left: 0; /* Elimina el padding izquierdo del contenedor padre */
 }
 
 .header-menu .hm-logo{
@@ -948,3 +949,21 @@ header h1 {
 }
 
 /*slider*/
+.hm-logo-text {
+    display: flex;
+    align-items: center;
+    margin-left: 0; /* Asegúrate de que no haya margen */
+    transform: translateX(-30px); /* Mueve el texto 10px hacia la izquierda */
+    font-size: 8px;
+    font-weight: bold;
+    color: var(--color-negro);
+    font-weight: 600; /* Negrita moderada */
+    color: var(--color-principal); /* Usa el color principal para destacar */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    font-family: 'Poppins', sans-serif; /* Fuente moderna */
+    background: linear-gradient(90deg, #1eb105, #52e439); /* Fondo degradado */
+    -webkit-background-clip: text; /* Aplica el degradado al texto */
+    background-clip: text; /* Propiedad estándar para compatibilidad */
+    -webkit-text-fill-color: transparent; /* Hace que el fondo sea visible */
+}
