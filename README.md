@@ -30,47 +30,7 @@ El trabajo se ha realizado teniendo en cuenta los principios del **diseño web m
     │       estilos.css
     │
     ├───img
-    │       alimentacion.jpg
-    │       arte.jpg
-    │       barker.webp
-    │       bebida1.png
-    │       bebida2.png
-    │       bebida3.png
-    │       bebida4.png
-    │       belleza.png
-    │       belleza2.png
-    │       belleza3.png
-    │       belleza4.png
-    │       c-1.jpg
-    │       c-2.jpg
-    │       c-3.jpg
-    │       c-4.jpg
-    │       campaña1.jpg
-    │       campaña2.webp
-    │       cargando.gif
-    │       cocina.jpg
-    │       CONACTOS.jpeg
-    │       heladobark.png
-    │       hogar.avif
-    │       img-banner.jpg
-    │       Logo_eco_market.png
-    │       nosotros.jpeg
-    │       oferta1.webp
-    │       oferta2.png
-    │       oferta3.png
-    │       oferta4.png
-    │       portada 12.jpg
-    │       portada.png
-    │       portada1.jpg
-    │       portada2.jpg
-    │       portada3.avif
-    │       producto5.png
-    │       producto6.png
-    │       producto7.webp
-    │       producto8.png
-    │       salmon.png
-    │       vegancan.webp
-    │       visa.png
+    │       
     │
     └───js
             app.js
