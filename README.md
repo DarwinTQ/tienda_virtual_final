@@ -1,6 +1,6 @@
 
-# 🌟 EcoMarket - Proyecto de Reestructuración del Sitio Web 🌟
-
+# 🌟 EcoMarket - Sitio Web 🌟
+- ![Eco Market](/ecomarket.png)
 ## 📖 Introducción
 En el contexto actual, donde la **experiencia del usuario** se ha vuelto primordial, la necesidad de desarrollar un sitio web efectivo y atractivo es innegable. Como parte de este proceso, me propuse mejorar el sitio web de **EcoMarket**, un proyecto que busca no solo presentar productos, sino también ofrecer una experiencia fluida y satisfactoria a los usuarios. Este trabajo es un paso fundamental para alcanzar el objetivo de crear un espacio en línea que sea **accesible**, **estéticamente agradable** y **funcional**.
 
